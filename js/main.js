@@ -38,6 +38,13 @@ function main() {
         offset: 80
     })
 
+    	// Loading page
+	var loaderPage = function () {
+		setTimeout(function () {
+			$('.fh5co-loader').fadeOut('slow', function () {
+			});
+		}, 2000);
+	};
 
   	/*====================================
     Portfolio Isotope Filter
@@ -74,7 +81,11 @@ function main() {
     ======================================*/
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
-	});	
+    });
+    
+    $(function () {
+		loaderPage();
+	});
 
 }());
 
