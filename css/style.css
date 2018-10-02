@@ -44,7 +44,6 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	color: #888;
 	line-height: 24px;
-	text-align: justify;
 }
 a {
 	color: #71bd46;
@@ -72,8 +71,8 @@ a:hover, a:focus {
 }
 ul, ol {
 	padding: 0;
-	webkit-padding: 0;
-	moz-padding: 0;
+	/* webkit-padding: 0;
+	moz-padding: 0; */
 	list-style: none;
 }
 hr {
@@ -226,6 +225,10 @@ img.team-img {
 	padding-bottom: 20px;
 	display: inline-block;
 }
+/* #services-section p {
+	text-align: justify;
+} */
+
 .space {
 	margin-top: 40px;
 }
@@ -325,7 +328,7 @@ ol.type li a:hover {
 }
 .hover-bg:hover .hover-text>h4 {
 	opacity: 1;
-	-webkit-backface-visibility: hidden;
+	/* -webkit-backface-visibility: hidden; */
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
 }
@@ -337,7 +340,7 @@ ol.type li a:hover {
 }
 .hover-bg:hover .hover-text>i {
 	opacity: 1;
-	-webkit-backface-visibility: hidden;
+	/* -webkit-backface-visibility: hidden; */
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
 }
