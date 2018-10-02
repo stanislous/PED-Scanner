@@ -44,7 +44,6 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	color: #888;
 	line-height: 24px;
-	text-align: justify;
 }
 a {
 	color: #71bd46;
@@ -226,6 +225,10 @@ img.team-img {
 	padding-bottom: 20px;
 	display: inline-block;
 }
+#services-section p {
+	text-align: justify;
+}
+
 .space {
 	margin-top: 40px;
 }
