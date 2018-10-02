@@ -44,6 +44,7 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	color: #888;
 	line-height: 24px;
+	text-align: justify;
 }
 a {
 	color: #71bd46;
@@ -432,7 +433,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Footer */
 #footer {
 	background-color: #222222;
-	color: #777;
+	color: #ffffff;
 	padding: 15px 0 10px 0;
 }
 #footer p {
