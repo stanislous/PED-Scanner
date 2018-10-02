@@ -71,8 +71,8 @@ a:hover, a:focus {
 }
 ul, ol {
 	padding: 0;
-	webkit-padding: 0;
-	moz-padding: 0;
+	/* webkit-padding: 0;
+	moz-padding: 0; */
 	list-style: none;
 }
 hr {
@@ -328,7 +328,7 @@ ol.type li a:hover {
 }
 .hover-bg:hover .hover-text>h4 {
 	opacity: 1;
-	-webkit-backface-visibility: hidden;
+	/* -webkit-backface-visibility: hidden; */
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
 }
@@ -340,7 +340,7 @@ ol.type li a:hover {
 }
 .hover-bg:hover .hover-text>i {
 	opacity: 1;
-	-webkit-backface-visibility: hidden;
+	/* -webkit-backface-visibility: hidden; */
 	-webkit-transform: translateY(100%);
 	transform: translateY(100%);
 }
