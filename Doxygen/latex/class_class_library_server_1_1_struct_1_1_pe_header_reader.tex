@@ -1,0 +1,359 @@
+\hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader}{}\section{Class\+Library\+Server.\+Struct.\+Pe\+Header\+Reader Class Reference}
+\label{class_class_library_server_1_1_struct_1_1_pe_header_reader}\index{Class\+Library\+Server.\+Struct.\+Pe\+Header\+Reader@{Class\+Library\+Server.\+Struct.\+Pe\+Header\+Reader}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_pe_header_reader_1_1_i_m_a_g_e___d_a_t_a___d_i_r_e_c_t_o_r_y}{I\+M\+A\+G\+E\+\_\+\+D\+A\+T\+A\+\_\+\+D\+I\+R\+E\+C\+T\+O\+RY}}
+\item 
+struct \mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_pe_header_reader_1_1_i_m_a_g_e___d_o_s___h_e_a_d_e_r}{I\+M\+A\+G\+E\+\_\+\+D\+O\+S\+\_\+\+H\+E\+A\+D\+ER}}
+\item 
+struct \mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_pe_header_reader_1_1_i_m_a_g_e___i_m_p_o_r_t___b_y___n_a_m_e}{I\+M\+A\+G\+E\+\_\+\+I\+M\+P\+O\+R\+T\+\_\+\+B\+Y\+\_\+\+N\+A\+ME}}
+\item 
+struct \mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_pe_header_reader_1_1_i_m_a_g_e___i_m_p_o_r_t___d_e_s_c_r_i_p_t_o_r}{I\+M\+A\+G\+E\+\_\+\+I\+M\+P\+O\+R\+T\+\_\+\+D\+E\+S\+C\+R\+I\+P\+T\+OR}}
+\item 
+struct \mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_pe_header_reader_1_1_i_m_a_g_e___o_p_t_i_o_n_a_l___h_e_a_d_e_r32}{I\+M\+A\+G\+E\+\_\+\+O\+P\+T\+I\+O\+N\+A\+L\+\_\+\+H\+E\+A\+D\+E\+R32}}
+\item 
+struct \mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_pe_header_reader_1_1_i_m_a_g_e___o_p_t_i_o_n_a_l___h_e_a_d_e_r64}{I\+M\+A\+G\+E\+\_\+\+O\+P\+T\+I\+O\+N\+A\+L\+\_\+\+H\+E\+A\+D\+E\+R64}}
+\item 
+struct \mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_pe_header_reader_1_1_i_m_a_g_e___s_e_c_t_i_o_n___h_e_a_d_e_r}{I\+M\+A\+G\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+H\+E\+A\+D\+ER}}
+\item 
+struct \mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_pe_header_reader_1_1_t_h_u_n_k___d_a_t_a}{T\+H\+U\+N\+K\+\_\+\+D\+A\+TA}}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259}{Data\+Section\+Flags}} \+: uint \{ \newline
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259ac21c143fdccf061bf55b9eda845d3caf}{Data\+Section\+Flags.\+Type\+Reg}} = 0x00000000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aa264967da0f508d66db493c2de5ee9c4}{Data\+Section\+Flags.\+Type\+Dsect}} = 0x00000001, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a7ee17105022d75d836d51057a693f05e}{Data\+Section\+Flags.\+Type\+No\+Load}} = 0x00000002, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a89fc4e991a3def4b344dc91f609ce5cd}{Data\+Section\+Flags.\+Type\+Group}} = 0x00000004, 
+\newline
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a8afd24ddd86bd6a2da9576c97477fa6b}{Data\+Section\+Flags.\+Type\+No\+Padded}} = 0x00000008, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a91019ad316b75f1966fee3ccc7eaf8fa}{Data\+Section\+Flags.\+Type\+Copy}} = 0x00000010, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a4ec72489fe7d116e4c4c79c9da24d7a3}{Data\+Section\+Flags.\+Content\+Code}} = 0x00000020, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a8f91b9883e7678b56e62d632aae87e1d}{Data\+Section\+Flags.\+Content\+Initialized\+Data}} = 0x00000040, 
+\newline
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259af5064527d3db43066be4ad7690bb14e6}{Data\+Section\+Flags.\+Content\+Uninitialized\+Data}} = 0x00000080, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a310ef0552dbc1a59c92660eb3f47adc1}{Data\+Section\+Flags.\+Link\+Other}} = 0x00000100, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aa428d9f343a03e0533c6eec7951dda30}{Data\+Section\+Flags.\+Link\+Info}} = 0x00000200, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a7989b8af124d838a7d198554ea1e05c7}{Data\+Section\+Flags.\+Type\+Over}} = 0x00000400, 
+\newline
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a5924ea31a27bd099153ccc0d4e9a2bbe}{Data\+Section\+Flags.\+Link\+Remove}} = 0x00000800, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a73e94ffb5599c8e888fbbc1c4b4ff747}{Data\+Section\+Flags.\+Link\+Com\+Dat}} = 0x00001000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a0a2c36bdae6cffdb85a207348a901c20}{Data\+Section\+Flags.\+No\+Defer\+Spec\+Exceptions}} = 0x00004000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259afbe69d00996540446cfa80fc995c4ae4}{Data\+Section\+Flags.\+Relative\+GP}} = 0x00008000, 
+\newline
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aaf790dea4972396098fb5cac7e9e5ed9}{Data\+Section\+Flags.\+Mem\+Purgeable}} = 0x00020000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aaf55a8c449725d41cdb4be0c1e9d509a}{Data\+Section\+Flags.\+Memory16\+Bit}} = 0x00020000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a0e61e2d979d3a15b1c6363ad6db0d3c2}{Data\+Section\+Flags.\+Memory\+Locked}} = 0x00040000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259ac681b65c0dad8c45e13ba18618bba51d}{Data\+Section\+Flags.\+Memory\+Preload}} = 0x00080000, 
+\newline
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a765608de9ac729fa6119f33d86323641}{Data\+Section\+Flags.\+Align1\+Bytes}} = 0x00100000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259abda3bf76a97acf1e08d8d8dc88fdb67a}{Data\+Section\+Flags.\+Align2\+Bytes}} = 0x00200000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a05f653feb004753aa92651687c087bf4}{Data\+Section\+Flags.\+Align4\+Bytes}} = 0x00300000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a9c81f9390bd6e5fdc3c644d7684e54cd}{Data\+Section\+Flags.\+Align8\+Bytes}} = 0x00400000, 
+\newline
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a1624fde44c1dc0e9d9570d83e88b1b3b}{Data\+Section\+Flags.\+Align16\+Bytes}} = 0x00500000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a4a584494f73a30648222bb89e35830be}{Data\+Section\+Flags.\+Align32\+Bytes}} = 0x00600000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aefeec26f9afb6e00df49a0acffd16e90}{Data\+Section\+Flags.\+Align64\+Bytes}} = 0x00700000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a317428f01d0052902a8e55741bd564c9}{Data\+Section\+Flags.\+Align128\+Bytes}} = 0x00800000, 
+\newline
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259ad4d21d5a24fb77f60d2ad18560454857}{Data\+Section\+Flags.\+Align256\+Bytes}} = 0x00900000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a2cb33ad220460fc67eb9df43ac9cc988}{Data\+Section\+Flags.\+Align512\+Bytes}} = 0x00\+A00000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a9f224b78990bba5f417cacf3cf44a236}{Data\+Section\+Flags.\+Align1024\+Bytes}} = 0x00\+B00000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a7b58be045531f536c602fbf4b6a5cc3e}{Data\+Section\+Flags.\+Align2048\+Bytes}} = 0x00\+C00000, 
+\newline
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a9243d8888148599e989aec20216879e6}{Data\+Section\+Flags.\+Align4096\+Bytes}} = 0x00\+D00000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a9306df9231ab5bd52e25a8b279a2ec55}{Data\+Section\+Flags.\+Align8192\+Bytes}} = 0x00\+E00000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259ad01894da5465bddb53ddde319dfe19b3}{Data\+Section\+Flags.\+Link\+Extended\+Relocation\+Overflow}} = 0x01000000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a5709064f25349c396c44922d4fab6fbe}{Data\+Section\+Flags.\+Memory\+Discardable}} = 0x02000000, 
+\newline
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a464fabb621c581183a5c410fc2ca7c7f}{Data\+Section\+Flags.\+Memory\+Not\+Cached}} = 0x04000000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259af17f8f106acef3fd0ff47b8cca4de356}{Data\+Section\+Flags.\+Memory\+Not\+Paged}} = 0x08000000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259abfa33c37b72f766266c354cb6eb01d3a}{Data\+Section\+Flags.\+Memory\+Shared}} = 0x10000000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a817041d31daef398c32f9e2efc8c482f}{Data\+Section\+Flags.\+Memory\+Execute}} = 0x20000000, 
+\newline
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a575da5d1d4109b111267b2e044af2aad}{Data\+Section\+Flags.\+Memory\+Read}} = 0x40000000, 
+\mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a5e932342aab40efaef1a503864403168}{Data\+Section\+Flags.\+Memory\+Write}} = 0x80000000
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_aac5f86224d412037c40f92d09997d810}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_aac5f86224d412037c40f92d09997d810}} 
+{\bfseries Pe\+Header\+Reader} (string file\+Path)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a308fa74984feed987e91ad1d2fc81cd4}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a308fa74984feed987e91ad1d2fc81cd4}} 
+static T {\bfseries From\+Binary\+Reader$<$ T $>$} (Binary\+Reader reader)
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a70b0b598170cd9f084a60efdd897d526}{Is32\+Bit\+Header}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets if the file header is 32 bit or not \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_i_m_a_g_e___f_i_l_e___h_e_a_d_e_r}{I\+M\+A\+G\+E\+\_\+\+F\+I\+L\+E\+\_\+\+H\+E\+A\+D\+ER}} \mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a579b0dbda74804312c60d185e08d741a}{File\+Header}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the file header \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_pe_header_reader_1_1_i_m_a_g_e___o_p_t_i_o_n_a_l___h_e_a_d_e_r32}{I\+M\+A\+G\+E\+\_\+\+O\+P\+T\+I\+O\+N\+A\+L\+\_\+\+H\+E\+A\+D\+E\+R32}} \mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a5f6932bd2acdcf923da759641e5f96da}{Optional\+Header32}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the optional header \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_pe_header_reader_1_1_i_m_a_g_e___o_p_t_i_o_n_a_l___h_e_a_d_e_r64}{I\+M\+A\+G\+E\+\_\+\+O\+P\+T\+I\+O\+N\+A\+L\+\_\+\+H\+E\+A\+D\+E\+R64}} \mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a9c6cded962ede1bde04a1506123657b5}{Optional\+Header64}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the optional header \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a96f05bc300d0a1130fe2b2ebc8fe1436}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a96f05bc300d0a1130fe2b2ebc8fe1436}} 
+\mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_pe_header_reader_1_1_i_m_a_g_e___s_e_c_t_i_o_n___h_e_a_d_e_r}{I\+M\+A\+G\+E\+\_\+\+S\+E\+C\+T\+I\+O\+N\+\_\+\+H\+E\+A\+D\+ER}} \mbox{[}$\,$\mbox{]} {\bfseries Image\+Section\+Headers}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 404 of file Native\+Dll\+Structure.\+cs.
+
+
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259}} 
+\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Data\+Section\+Flags@{Data\+Section\+Flags}}
+\index{Data\+Section\+Flags@{Data\+Section\+Flags}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}
+\subsubsection{\texorpdfstring{Data\+Section\+Flags}{DataSectionFlags}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259}{Class\+Library\+Server.\+Struct.\+Pe\+Header\+Reader.\+Data\+Section\+Flags}} \+: uint\hspace{0.3cm}{\ttfamily [strong]}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Type\+Reg@{Type\+Reg}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Type\+Reg@{Type\+Reg}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259ac21c143fdccf061bf55b9eda845d3caf}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259ac21c143fdccf061bf55b9eda845d3caf}} 
+Type\+Reg&Reserved for future use. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Type\+Dsect@{Type\+Dsect}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Type\+Dsect@{Type\+Dsect}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aa264967da0f508d66db493c2de5ee9c4}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aa264967da0f508d66db493c2de5ee9c4}} 
+Type\+Dsect&Reserved for future use. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Type\+No\+Load@{Type\+No\+Load}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Type\+No\+Load@{Type\+No\+Load}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a7ee17105022d75d836d51057a693f05e}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a7ee17105022d75d836d51057a693f05e}} 
+Type\+No\+Load&Reserved for future use. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Type\+Group@{Type\+Group}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Type\+Group@{Type\+Group}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a89fc4e991a3def4b344dc91f609ce5cd}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a89fc4e991a3def4b344dc91f609ce5cd}} 
+Type\+Group&Reserved for future use. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Type\+No\+Padded@{Type\+No\+Padded}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Type\+No\+Padded@{Type\+No\+Padded}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a8afd24ddd86bd6a2da9576c97477fa6b}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a8afd24ddd86bd6a2da9576c97477fa6b}} 
+Type\+No\+Padded&The section should not be padded to the next boundary. This flag is obsolete and is replaced by I\+M\+A\+G\+E\+\_\+\+S\+C\+N\+\_\+\+A\+L\+I\+G\+N\+\_\+1\+B\+Y\+T\+ES. This is valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Type\+Copy@{Type\+Copy}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Type\+Copy@{Type\+Copy}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a91019ad316b75f1966fee3ccc7eaf8fa}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a91019ad316b75f1966fee3ccc7eaf8fa}} 
+Type\+Copy&Reserved for future use. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Content\+Code@{Content\+Code}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Content\+Code@{Content\+Code}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a4ec72489fe7d116e4c4c79c9da24d7a3}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a4ec72489fe7d116e4c4c79c9da24d7a3}} 
+Content\+Code&The section contains executable code. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Content\+Initialized\+Data@{Content\+Initialized\+Data}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Content\+Initialized\+Data@{Content\+Initialized\+Data}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a8f91b9883e7678b56e62d632aae87e1d}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a8f91b9883e7678b56e62d632aae87e1d}} 
+Content\+Initialized\+Data&The section contains initialized data. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Content\+Uninitialized\+Data@{Content\+Uninitialized\+Data}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Content\+Uninitialized\+Data@{Content\+Uninitialized\+Data}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259af5064527d3db43066be4ad7690bb14e6}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259af5064527d3db43066be4ad7690bb14e6}} 
+Content\+Uninitialized\+Data&The section contains uninitialized data. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Link\+Other@{Link\+Other}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Link\+Other@{Link\+Other}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a310ef0552dbc1a59c92660eb3f47adc1}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a310ef0552dbc1a59c92660eb3f47adc1}} 
+Link\+Other&Reserved for future use. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Link\+Info@{Link\+Info}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Link\+Info@{Link\+Info}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aa428d9f343a03e0533c6eec7951dda30}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aa428d9f343a03e0533c6eec7951dda30}} 
+Link\+Info&The section contains comments or other information. The .drectve section has this type. This is valid for object files only. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Type\+Over@{Type\+Over}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Type\+Over@{Type\+Over}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a7989b8af124d838a7d198554ea1e05c7}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a7989b8af124d838a7d198554ea1e05c7}} 
+Type\+Over&Reserved for future use. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Link\+Remove@{Link\+Remove}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Link\+Remove@{Link\+Remove}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a5924ea31a27bd099153ccc0d4e9a2bbe}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a5924ea31a27bd099153ccc0d4e9a2bbe}} 
+Link\+Remove&The section will not become part of the image. This is valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Link\+Com\+Dat@{Link\+Com\+Dat}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Link\+Com\+Dat@{Link\+Com\+Dat}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a73e94ffb5599c8e888fbbc1c4b4ff747}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a73e94ffb5599c8e888fbbc1c4b4ff747}} 
+Link\+Com\+Dat&The section contains C\+O\+M\+D\+AT data. For more information, see section 5.\+5.\+6, C\+O\+M\+D\+AT Sections (Object Only). This is valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{No\+Defer\+Spec\+Exceptions@{No\+Defer\+Spec\+Exceptions}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!No\+Defer\+Spec\+Exceptions@{No\+Defer\+Spec\+Exceptions}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a0a2c36bdae6cffdb85a207348a901c20}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a0a2c36bdae6cffdb85a207348a901c20}} 
+No\+Defer\+Spec\+Exceptions&Reset speculative exceptions handling bits in the T\+LB entries for this section. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Relative\+GP@{Relative\+GP}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Relative\+GP@{Relative\+GP}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259afbe69d00996540446cfa80fc995c4ae4}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259afbe69d00996540446cfa80fc995c4ae4}} 
+Relative\+GP&The section contains data referenced through the global pointer (GP). \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Mem\+Purgeable@{Mem\+Purgeable}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Mem\+Purgeable@{Mem\+Purgeable}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aaf790dea4972396098fb5cac7e9e5ed9}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aaf790dea4972396098fb5cac7e9e5ed9}} 
+Mem\+Purgeable&Reserved for future use. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Memory16\+Bit@{Memory16\+Bit}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Memory16\+Bit@{Memory16\+Bit}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aaf55a8c449725d41cdb4be0c1e9d509a}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aaf55a8c449725d41cdb4be0c1e9d509a}} 
+Memory16\+Bit&Reserved for future use. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Memory\+Locked@{Memory\+Locked}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Memory\+Locked@{Memory\+Locked}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a0e61e2d979d3a15b1c6363ad6db0d3c2}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a0e61e2d979d3a15b1c6363ad6db0d3c2}} 
+Memory\+Locked&Reserved for future use. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Memory\+Preload@{Memory\+Preload}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Memory\+Preload@{Memory\+Preload}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259ac681b65c0dad8c45e13ba18618bba51d}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259ac681b65c0dad8c45e13ba18618bba51d}} 
+Memory\+Preload&Reserved for future use. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align1\+Bytes@{Align1\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align1\+Bytes@{Align1\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a765608de9ac729fa6119f33d86323641}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a765608de9ac729fa6119f33d86323641}} 
+Align1\+Bytes&Align data on a 1-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align2\+Bytes@{Align2\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align2\+Bytes@{Align2\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259abda3bf76a97acf1e08d8d8dc88fdb67a}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259abda3bf76a97acf1e08d8d8dc88fdb67a}} 
+Align2\+Bytes&Align data on a 2-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align4\+Bytes@{Align4\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align4\+Bytes@{Align4\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a05f653feb004753aa92651687c087bf4}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a05f653feb004753aa92651687c087bf4}} 
+Align4\+Bytes&Align data on a 4-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align8\+Bytes@{Align8\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align8\+Bytes@{Align8\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a9c81f9390bd6e5fdc3c644d7684e54cd}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a9c81f9390bd6e5fdc3c644d7684e54cd}} 
+Align8\+Bytes&Align data on an 8-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align16\+Bytes@{Align16\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align16\+Bytes@{Align16\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a1624fde44c1dc0e9d9570d83e88b1b3b}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a1624fde44c1dc0e9d9570d83e88b1b3b}} 
+Align16\+Bytes&Align data on a 16-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align32\+Bytes@{Align32\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align32\+Bytes@{Align32\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a4a584494f73a30648222bb89e35830be}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a4a584494f73a30648222bb89e35830be}} 
+Align32\+Bytes&Align data on a 32-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align64\+Bytes@{Align64\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align64\+Bytes@{Align64\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aefeec26f9afb6e00df49a0acffd16e90}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259aefeec26f9afb6e00df49a0acffd16e90}} 
+Align64\+Bytes&Align data on a 64-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align128\+Bytes@{Align128\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align128\+Bytes@{Align128\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a317428f01d0052902a8e55741bd564c9}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a317428f01d0052902a8e55741bd564c9}} 
+Align128\+Bytes&Align data on a 128-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align256\+Bytes@{Align256\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align256\+Bytes@{Align256\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259ad4d21d5a24fb77f60d2ad18560454857}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259ad4d21d5a24fb77f60d2ad18560454857}} 
+Align256\+Bytes&Align data on a 256-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align512\+Bytes@{Align512\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align512\+Bytes@{Align512\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a2cb33ad220460fc67eb9df43ac9cc988}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a2cb33ad220460fc67eb9df43ac9cc988}} 
+Align512\+Bytes&Align data on a 512-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align1024\+Bytes@{Align1024\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align1024\+Bytes@{Align1024\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a9f224b78990bba5f417cacf3cf44a236}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a9f224b78990bba5f417cacf3cf44a236}} 
+Align1024\+Bytes&Align data on a 1024-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align2048\+Bytes@{Align2048\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align2048\+Bytes@{Align2048\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a7b58be045531f536c602fbf4b6a5cc3e}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a7b58be045531f536c602fbf4b6a5cc3e}} 
+Align2048\+Bytes&Align data on a 2048-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align4096\+Bytes@{Align4096\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align4096\+Bytes@{Align4096\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a9243d8888148599e989aec20216879e6}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a9243d8888148599e989aec20216879e6}} 
+Align4096\+Bytes&Align data on a 4096-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Align8192\+Bytes@{Align8192\+Bytes}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Align8192\+Bytes@{Align8192\+Bytes}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a9306df9231ab5bd52e25a8b279a2ec55}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a9306df9231ab5bd52e25a8b279a2ec55}} 
+Align8192\+Bytes&Align data on an 8192-\/byte boundary. Valid only for object files. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Link\+Extended\+Relocation\+Overflow@{Link\+Extended\+Relocation\+Overflow}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Link\+Extended\+Relocation\+Overflow@{Link\+Extended\+Relocation\+Overflow}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259ad01894da5465bddb53ddde319dfe19b3}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259ad01894da5465bddb53ddde319dfe19b3}} 
+Link\+Extended\+Relocation\+Overflow&The section contains extended relocations. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Memory\+Discardable@{Memory\+Discardable}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Memory\+Discardable@{Memory\+Discardable}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a5709064f25349c396c44922d4fab6fbe}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a5709064f25349c396c44922d4fab6fbe}} 
+Memory\+Discardable&The section can be discarded as needed. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Memory\+Not\+Cached@{Memory\+Not\+Cached}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Memory\+Not\+Cached@{Memory\+Not\+Cached}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a464fabb621c581183a5c410fc2ca7c7f}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a464fabb621c581183a5c410fc2ca7c7f}} 
+Memory\+Not\+Cached&The section cannot be cached. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Memory\+Not\+Paged@{Memory\+Not\+Paged}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Memory\+Not\+Paged@{Memory\+Not\+Paged}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259af17f8f106acef3fd0ff47b8cca4de356}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259af17f8f106acef3fd0ff47b8cca4de356}} 
+Memory\+Not\+Paged&The section is not pageable. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Memory\+Shared@{Memory\+Shared}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Memory\+Shared@{Memory\+Shared}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259abfa33c37b72f766266c354cb6eb01d3a}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259abfa33c37b72f766266c354cb6eb01d3a}} 
+Memory\+Shared&The section can be shared in memory. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Memory\+Execute@{Memory\+Execute}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Memory\+Execute@{Memory\+Execute}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a817041d31daef398c32f9e2efc8c482f}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a817041d31daef398c32f9e2efc8c482f}} 
+Memory\+Execute&The section can be executed as code. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Memory\+Read@{Memory\+Read}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Memory\+Read@{Memory\+Read}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a575da5d1d4109b111267b2e044af2aad}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a575da5d1d4109b111267b2e044af2aad}} 
+Memory\+Read&The section can be read. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Memory\+Write@{Memory\+Write}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Memory\+Write@{Memory\+Write}}}\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a5e932342aab40efaef1a503864403168}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a4ae33a797e1f1bb3585427a468f7b259a5e932342aab40efaef1a503864403168}} 
+Memory\+Write&The section can be written to. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 634 of file Native\+Dll\+Structure.\+cs.
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a579b0dbda74804312c60d185e08d741a}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a579b0dbda74804312c60d185e08d741a}} 
+\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!File\+Header@{File\+Header}}
+\index{File\+Header@{File\+Header}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}
+\subsubsection{\texorpdfstring{File\+Header}{FileHeader}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_i_m_a_g_e___f_i_l_e___h_e_a_d_e_r}{I\+M\+A\+G\+E\+\_\+\+F\+I\+L\+E\+\_\+\+H\+E\+A\+D\+ER}} Class\+Library\+Server.\+Struct.\+Pe\+Header\+Reader.\+File\+Header\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the file header 
+
+
+
+Definition at line 902 of file Native\+Dll\+Structure.\+cs.
+
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a70b0b598170cd9f084a60efdd897d526}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a70b0b598170cd9f084a60efdd897d526}} 
+\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Is32\+Bit\+Header@{Is32\+Bit\+Header}}
+\index{Is32\+Bit\+Header@{Is32\+Bit\+Header}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}
+\subsubsection{\texorpdfstring{Is32\+Bit\+Header}{Is32BitHeader}}
+{\footnotesize\ttfamily bool Class\+Library\+Server.\+Struct.\+Pe\+Header\+Reader.\+Is32\+Bit\+Header\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets if the file header is 32 bit or not 
+
+
+
+Definition at line 890 of file Native\+Dll\+Structure.\+cs.
+
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a5f6932bd2acdcf923da759641e5f96da}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a5f6932bd2acdcf923da759641e5f96da}} 
+\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Optional\+Header32@{Optional\+Header32}}
+\index{Optional\+Header32@{Optional\+Header32}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}
+\subsubsection{\texorpdfstring{Optional\+Header32}{OptionalHeader32}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_pe_header_reader_1_1_i_m_a_g_e___o_p_t_i_o_n_a_l___h_e_a_d_e_r32}{I\+M\+A\+G\+E\+\_\+\+O\+P\+T\+I\+O\+N\+A\+L\+\_\+\+H\+E\+A\+D\+E\+R32}} Class\+Library\+Server.\+Struct.\+Pe\+Header\+Reader.\+Optional\+Header32\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the optional header 
+
+
+
+Definition at line 913 of file Native\+Dll\+Structure.\+cs.
+
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_pe_header_reader_a9c6cded962ede1bde04a1506123657b5}\label{class_class_library_server_1_1_struct_1_1_pe_header_reader_a9c6cded962ede1bde04a1506123657b5}} 
+\index{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}!Optional\+Header64@{Optional\+Header64}}
+\index{Optional\+Header64@{Optional\+Header64}!Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader@{Class\+Library\+Server\+::\+Struct\+::\+Pe\+Header\+Reader}}
+\subsubsection{\texorpdfstring{Optional\+Header64}{OptionalHeader64}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_pe_header_reader_1_1_i_m_a_g_e___o_p_t_i_o_n_a_l___h_e_a_d_e_r64}{I\+M\+A\+G\+E\+\_\+\+O\+P\+T\+I\+O\+N\+A\+L\+\_\+\+H\+E\+A\+D\+E\+R64}} Class\+Library\+Server.\+Struct.\+Pe\+Header\+Reader.\+Optional\+Header64\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the optional header 
+
+
+
+Definition at line 924 of file Native\+Dll\+Structure.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Shehan Vanderputt/\+Downloads/\+Compressed/\+P\+E\+D\+Scanner-\/master/\+P\+E\+D\+Scanner-\/master/\+Server64\+Bit\+Library/\+Server64\+Bit\+Library/Native\+Dll\+Structure.\+cs\end{DoxyCompactItemize}

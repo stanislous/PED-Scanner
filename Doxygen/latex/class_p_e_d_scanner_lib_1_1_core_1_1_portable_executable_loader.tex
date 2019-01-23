@@ -1,0 +1,97 @@
+\hypertarget{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader}{}\section{P\+E\+D\+Scanner\+Lib.\+Core.\+Portable\+Executable\+Loader Class Reference}
+\label{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader}\index{P\+E\+D\+Scanner\+Lib.\+Core.\+Portable\+Executable\+Loader@{P\+E\+D\+Scanner\+Lib.\+Core.\+Portable\+Executable\+Loader}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_af369b1ed2a8b0f76c21c5ee522f4ab47}\label{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_af369b1ed2a8b0f76c21c5ee522f4ab47}} 
+void {\bfseries Load} (\mbox{\hyperlink{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable}{Portable\+Executable}} portable\+Executable)
+\item 
+bool \mbox{\hyperlink{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_ab40516998ff72efd721effcb1cc858e3}{Is32bit\+File}} (\mbox{\hyperlink{class_p_e_d_scanner_lib_1_1_struct_1_1_pe_header_reader}{Pe\+Header\+Reader}} reader)
+\begin{DoxyCompactList}\small\item\em check whether the file is 32 bit or not \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_aa558ac645b1c1d45d6ca2de6f11254e2}{Get\+Machine\+Type}} (\mbox{\hyperlink{class_p_e_d_scanner_lib_1_1_struct_1_1_pe_header_reader}{Pe\+Header\+Reader}} reader)
+\begin{DoxyCompactList}\small\item\em return the machine type \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_a857cacc5b0680f7fd26ab83c28e8ea13}{Is\+Managed\+Assembly}} (string file\+Name)
+\begin{DoxyCompactList}\small\item\em check whether the dll or exe is managed or not \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_a8dc0dd6bc1f36d4acf68d454ad129781}\label{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_a8dc0dd6bc1f36d4acf68d454ad129781}} 
+static string {\bfseries Get\+Character\+Information} (U\+Int32 character\+Value)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_a27c118e26173e30ff80eeb551e582d26}\label{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_a27c118e26173e30ff80eeb551e582d26}} 
+\mbox{\hyperlink{class_p_e_d_scanner_lib_1_1_smart_suggestion_engine}{Smart\+Suggestion\+Engine}} {\bfseries smart\+Suggestion\+Engine}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 105 of file Portable\+Executable.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_aa558ac645b1c1d45d6ca2de6f11254e2}\label{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_aa558ac645b1c1d45d6ca2de6f11254e2}} 
+\index{P\+E\+D\+Scanner\+Lib\+::\+Core\+::\+Portable\+Executable\+Loader@{P\+E\+D\+Scanner\+Lib\+::\+Core\+::\+Portable\+Executable\+Loader}!Get\+Machine\+Type@{Get\+Machine\+Type}}
+\index{Get\+Machine\+Type@{Get\+Machine\+Type}!P\+E\+D\+Scanner\+Lib\+::\+Core\+::\+Portable\+Executable\+Loader@{P\+E\+D\+Scanner\+Lib\+::\+Core\+::\+Portable\+Executable\+Loader}}
+\subsubsection{\texorpdfstring{Get\+Machine\+Type()}{GetMachineType()}}
+{\footnotesize\ttfamily string P\+E\+D\+Scanner\+Lib.\+Core.\+Portable\+Executable\+Loader.\+Get\+Machine\+Type (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_p_e_d_scanner_lib_1_1_struct_1_1_pe_header_reader}{Pe\+Header\+Reader}}}]{reader }\end{DoxyParamCaption})}
+
+
+
+return the machine type 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 748 of file Portable\+Executable.\+cs.
+
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_ab40516998ff72efd721effcb1cc858e3}\label{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_ab40516998ff72efd721effcb1cc858e3}} 
+\index{P\+E\+D\+Scanner\+Lib\+::\+Core\+::\+Portable\+Executable\+Loader@{P\+E\+D\+Scanner\+Lib\+::\+Core\+::\+Portable\+Executable\+Loader}!Is32bit\+File@{Is32bit\+File}}
+\index{Is32bit\+File@{Is32bit\+File}!P\+E\+D\+Scanner\+Lib\+::\+Core\+::\+Portable\+Executable\+Loader@{P\+E\+D\+Scanner\+Lib\+::\+Core\+::\+Portable\+Executable\+Loader}}
+\subsubsection{\texorpdfstring{Is32bit\+File()}{Is32bitFile()}}
+{\footnotesize\ttfamily bool P\+E\+D\+Scanner\+Lib.\+Core.\+Portable\+Executable\+Loader.\+Is32bit\+File (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_p_e_d_scanner_lib_1_1_struct_1_1_pe_header_reader}{Pe\+Header\+Reader}}}]{reader }\end{DoxyParamCaption})}
+
+
+
+check whether the file is 32 bit or not 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 734 of file Portable\+Executable.\+cs.
+
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_a857cacc5b0680f7fd26ab83c28e8ea13}\label{class_p_e_d_scanner_lib_1_1_core_1_1_portable_executable_loader_a857cacc5b0680f7fd26ab83c28e8ea13}} 
+\index{P\+E\+D\+Scanner\+Lib\+::\+Core\+::\+Portable\+Executable\+Loader@{P\+E\+D\+Scanner\+Lib\+::\+Core\+::\+Portable\+Executable\+Loader}!Is\+Managed\+Assembly@{Is\+Managed\+Assembly}}
+\index{Is\+Managed\+Assembly@{Is\+Managed\+Assembly}!P\+E\+D\+Scanner\+Lib\+::\+Core\+::\+Portable\+Executable\+Loader@{P\+E\+D\+Scanner\+Lib\+::\+Core\+::\+Portable\+Executable\+Loader}}
+\subsubsection{\texorpdfstring{Is\+Managed\+Assembly()}{IsManagedAssembly()}}
+{\footnotesize\ttfamily static bool P\+E\+D\+Scanner\+Lib.\+Core.\+Portable\+Executable\+Loader.\+Is\+Managed\+Assembly (\begin{DoxyParamCaption}\item[{string}]{file\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+check whether the dll or exe is managed or not 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 775 of file Portable\+Executable.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Shehan Vanderputt/\+Downloads/\+Compressed/\+P\+E\+D\+Scanner-\/master/\+P\+E\+D\+Scanner-\/master/\+P\+E\+D\+Scanner\+Lib/\+P\+E\+D\+Scanner\+Lib/Portable\+Executable.\+cs\end{DoxyCompactItemize}

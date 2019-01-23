@@ -1,0 +1,62 @@
+\hypertarget{class_class_library_server_1_1_struct_1_1_interop}{}\section{Class\+Library\+Server.\+Struct.\+Interop Class Reference}
+\label{class_class_library_server_1_1_struct_1_1_interop}\index{Class\+Library\+Server.\+Struct.\+Interop@{Class\+Library\+Server.\+Struct.\+Interop}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_a2af7410b79f5980781f65eb4da38af6a}\label{class_class_library_server_1_1_struct_1_1_interop_a2af7410b79f5980781f65eb4da38af6a}} 
+static void $\ast$ {\bfseries Get\+Module\+HandleA} (char $\ast$lp\+Module\+Name)
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_ab10dc5648efa72db11e600a95f20d037}\label{class_class_library_server_1_1_struct_1_1_interop_ab10dc5648efa72db11e600a95f20d037}} 
+static void $\ast$ {\bfseries Get\+Module\+HandleW} (char $\ast$lp\+Module\+Name)
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_a9b4a9685f435e57614a954f94e4115c7}\label{class_class_library_server_1_1_struct_1_1_interop_a9b4a9685f435e57614a954f94e4115c7}} 
+static bool {\bfseries Is\+Bad\+Read\+Ptr} (void $\ast$lp\+Base, uint ucb)
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_a07996454d1197adf9537011fc5cece7a}\label{class_class_library_server_1_1_struct_1_1_interop_a07996454d1197adf9537011fc5cece7a}} 
+static bool {\bfseries Is\+Bad\+Read\+Ptr} (void $\ast$lp\+Base, ulong ucb)
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_a466d767c6d61625fc261d6a06208e303}\label{class_class_library_server_1_1_struct_1_1_interop_a466d767c6d61625fc261d6a06208e303}} 
+static void $\ast$ {\bfseries Image\+Directory\+Entry\+To\+Data} (void $\ast$Base, bool Mapped\+As\+Image, ulong Directory\+Entry, out ulong Size)
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_a1e66c1942db3ffcf045abad0a9118336}\label{class_class_library_server_1_1_struct_1_1_interop_a1e66c1942db3ffcf045abad0a9118336}} 
+static void $\ast$ {\bfseries Image\+Directory\+Entry\+To\+Data} (void $\ast$Base, bool Mapped\+As\+Image, ushort Directory\+Entry, out uint Size)
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_a3bd560e9cad352d3e249482a71928621}\label{class_class_library_server_1_1_struct_1_1_interop_a3bd560e9cad352d3e249482a71928621}} 
+static Int\+Ptr {\bfseries Image\+Rva\+To\+Va} (Int\+Ptr p\+Nt\+Headers, Int\+Ptr p\+Base, uint rva, Int\+Ptr p\+Last\+Rva\+Section)
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_ab56255d4982a9748c444719d10f5219f}\label{class_class_library_server_1_1_struct_1_1_interop_ab56255d4982a9748c444719d10f5219f}} 
+static Int\+Ptr {\bfseries Image\+Nt\+Header} (Int\+Ptr p\+Image\+Base)
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_ac04dbcdb580a0adf5022c702399d8709}\label{class_class_library_server_1_1_struct_1_1_interop_ac04dbcdb580a0adf5022c702399d8709}} 
+static bool {\bfseries Map\+And\+Load} (string image\+Name, string dll\+Path, out \mbox{\hyperlink{struct_class_library_server_1_1_struct_1_1_l_o_a_d_e_d___i_m_a_g_e}{L\+O\+A\+D\+E\+D\+\_\+\+I\+M\+A\+GE}} loaded\+Image, bool dot\+Dll, bool read\+Only)
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_a5e23c3984cc77dd0cd5cd676857e7b38}\label{class_class_library_server_1_1_struct_1_1_interop_a5e23c3984cc77dd0cd5cd676857e7b38}} 
+static bool {\bfseries Set\+File\+Pointer\+Ex} (Int\+Ptr h\+File, long li\+Distance\+To\+Move, out long lp\+New\+File\+Pointer, uint dw\+Move\+Method)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_a1f988dd749571a74a453268b7bd5bb69}\label{class_class_library_server_1_1_struct_1_1_interop_a1f988dd749571a74a453268b7bd5bb69}} 
+static readonly ushort {\bfseries I\+M\+A\+G\+E\+\_\+\+D\+I\+R\+E\+C\+T\+O\+R\+Y\+\_\+\+E\+N\+T\+R\+Y\+\_\+\+I\+M\+P\+O\+R\+T32} = 1
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_aadf1595d26b2ba169c6ae9a91971c844}\label{class_class_library_server_1_1_struct_1_1_interop_aadf1595d26b2ba169c6ae9a91971c844}} 
+static readonly ulong {\bfseries I\+M\+A\+G\+E\+\_\+\+D\+I\+R\+E\+C\+T\+O\+R\+Y\+\_\+\+E\+N\+T\+R\+Y\+\_\+\+I\+M\+P\+O\+RT} = 1
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_a1bacac4010c3c7933c38feddb1108492}\label{class_class_library_server_1_1_struct_1_1_interop_a1bacac4010c3c7933c38feddb1108492}} 
+static readonly ushort {\bfseries I\+M\+A\+G\+E\+\_\+\+D\+I\+R\+E\+C\+T\+O\+R\+Y\+\_\+\+E\+N\+T\+R\+Y\+\_\+\+E\+X\+P\+O\+R\+T32} = 0
+\item 
+\mbox{\Hypertarget{class_class_library_server_1_1_struct_1_1_interop_a26c73da92f92be46d41c15230a75f719}\label{class_class_library_server_1_1_struct_1_1_interop_a26c73da92f92be46d41c15230a75f719}} 
+static readonly ulong {\bfseries I\+M\+A\+G\+E\+\_\+\+D\+I\+R\+E\+C\+T\+O\+R\+Y\+\_\+\+E\+N\+T\+R\+Y\+\_\+\+E\+X\+P\+O\+RT} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 340 of file Native\+Dll\+Structure.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Shehan Vanderputt/\+Downloads/\+Compressed/\+P\+E\+D\+Scanner-\/master/\+P\+E\+D\+Scanner-\/master/\+Server64\+Bit\+Library/\+Server64\+Bit\+Library/Native\+Dll\+Structure.\+cs\end{DoxyCompactItemize}

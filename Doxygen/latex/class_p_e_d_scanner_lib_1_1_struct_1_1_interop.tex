@@ -1,0 +1,50 @@
+\hypertarget{class_p_e_d_scanner_lib_1_1_struct_1_1_interop}{}\section{P\+E\+D\+Scanner\+Lib.\+Struct.\+Interop Class Reference}
+\label{class_p_e_d_scanner_lib_1_1_struct_1_1_interop}\index{P\+E\+D\+Scanner\+Lib.\+Struct.\+Interop@{P\+E\+D\+Scanner\+Lib.\+Struct.\+Interop}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_a84a2a6209e0765dc550351642bb9c3d7}\label{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_a84a2a6209e0765dc550351642bb9c3d7}} 
+static void $\ast$ {\bfseries Get\+Module\+HandleA} (char $\ast$lp\+Module\+Name)
+\item 
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_a9adb1425939675e4bb2089a3a25132af}\label{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_a9adb1425939675e4bb2089a3a25132af}} 
+static void $\ast$ {\bfseries Get\+Module\+HandleW} (char $\ast$lp\+Module\+Name)
+\item 
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_ad51a924319e3af8f37853860f52ded42}\label{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_ad51a924319e3af8f37853860f52ded42}} 
+static bool {\bfseries Is\+Bad\+Read\+Ptr} (void $\ast$lp\+Base, uint ucb)
+\item 
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_ad026a33a9699d74f6fe8c7fac1b6d890}\label{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_ad026a33a9699d74f6fe8c7fac1b6d890}} 
+static void $\ast$ {\bfseries Image\+Directory\+Entry\+To\+Data} (void $\ast$Base, bool Mapped\+As\+Image, ushort Directory\+Entry, out uint Size)
+\item 
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_a7e67ab62ee7c29cf8940eec1db41fc0f}\label{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_a7e67ab62ee7c29cf8940eec1db41fc0f}} 
+static Int\+Ptr {\bfseries Image\+Rva\+To\+Va} (Int\+Ptr p\+Nt\+Headers, Int\+Ptr p\+Base, uint rva, Int\+Ptr p\+Last\+Rva\+Section)
+\item 
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_abf490187652508db85aa44999b0bd032}\label{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_abf490187652508db85aa44999b0bd032}} 
+static Int\+Ptr {\bfseries Image\+Nt\+Header} (Int\+Ptr p\+Image\+Base)
+\item 
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_aed20b693f14a56a0723ee148f189c8b2}\label{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_aed20b693f14a56a0723ee148f189c8b2}} 
+static bool {\bfseries Map\+And\+Load} (string image\+Name, string dll\+Path, out \mbox{\hyperlink{struct_p_e_d_scanner_lib_1_1_struct_1_1_l_o_a_d_e_d___i_m_a_g_e}{L\+O\+A\+D\+E\+D\+\_\+\+I\+M\+A\+GE}} loaded\+Image, bool dot\+Dll, bool read\+Only)
+\item 
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_acbb75464f4b2f6bc330be350a0ca3264}\label{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_acbb75464f4b2f6bc330be350a0ca3264}} 
+static bool {\bfseries Set\+File\+Pointer\+Ex} (Int\+Ptr h\+File, long li\+Distance\+To\+Move, out long lp\+New\+File\+Pointer, uint dw\+Move\+Method)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_ada7ee8624dc2e81e32215be6fe93f50d}\label{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_ada7ee8624dc2e81e32215be6fe93f50d}} 
+static readonly ushort {\bfseries I\+M\+A\+G\+E\+\_\+\+D\+I\+R\+E\+C\+T\+O\+R\+Y\+\_\+\+E\+N\+T\+R\+Y\+\_\+\+I\+M\+P\+O\+RT} = 1
+\item 
+\mbox{\Hypertarget{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_ad63757077050d2cb9bb0d4a15e2cf0fb}\label{class_p_e_d_scanner_lib_1_1_struct_1_1_interop_ad63757077050d2cb9bb0d4a15e2cf0fb}} 
+static readonly ushort {\bfseries I\+M\+A\+G\+E\+\_\+\+D\+I\+R\+E\+C\+T\+O\+R\+Y\+\_\+\+E\+N\+T\+R\+Y\+\_\+\+E\+X\+P\+O\+RT} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 299 of file Native\+Dll\+Structs.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Shehan Vanderputt/\+Downloads/\+Compressed/\+P\+E\+D\+Scanner-\/master/\+P\+E\+D\+Scanner-\/master/\+P\+E\+D\+Scanner\+Lib/\+P\+E\+D\+Scanner\+Lib/Native\+Dll\+Structs.\+cs\end{DoxyCompactItemize}
